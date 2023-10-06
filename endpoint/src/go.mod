@@ -2,10 +2,12 @@ module github.com/Deathfireofdoom/excel-infra-service
 
 go 1.21.1
 
-require github.com/go-chi/chi v1.5.5
+require (
+	github.com/Deathfireofdoom/excel-client-go v0.0.0-20230926160419-e0ec9822c082
+	github.com/go-chi/chi v1.5.5
+)
 
 require (
-	github.com/Deathfireofdoom/excel-client-go v0.0.0-20230523133255-29d60de545fd // indirect
 	github.com/mattn/go-sqlite3 v1.14.16 // indirect
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	github.com/richardlehane/mscfb v1.0.4 // indirect
